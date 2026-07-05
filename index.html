@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOAF'S BY HIFZA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+      <link rel="shortcut icon" href="bakery-logo.jpg" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>LOAF'S BY HIFZA</h1>
+    </nav>
+
+    <section class="slider">
+        <img src="img1.jpg" alt="Bakery">
+
+        <div class="slider-text">
+            <h1>Freshly Baked Happiness</h1>
+            <p>Made with love, served with sweetness.</p>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h1>Some glimpse of bakery's kitchen</h1>
+
+        <div class="video-container">
+
+            <video controls>
+                <source src="cake.mp4" type="video/mp4">
+            </video>
+
+            <video controls>
+                <source src="bakery.mp4" type="video/mp4">
+            </video>
+
+            <video controls>
+                <source src="hifza.mp4" type="video/mp4">
+            </video>
+
+        </div>
+    </section>
+
+   <div class="search-box">
+
+    <select id="categorySelect" onchange="filterCategory()">
+
+        <option value="all">All Products</option>
+        <option value="Cupcake">Cupcakes</option>
+        <option value="Cake">Cakes</option>
+        <option value="Brownie">Brownies</option>
+        <option value="Bread">Bread</option>
+        <option value="Cheesecake">Cheesecakes</option>
+        <option value="Other">Other Items</option>
+
+    </select>
+
+</div>
+    <div class="container" id="productsContainer"></div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
