@@ -2,7 +2,7 @@
 
 A modern and interactive bakery search application built using **HTML, CSS, and JavaScript** 🥐. This project was created to practice JavaScript DOM manipulation, search and filter functionality, and responsive web design while creating a beautiful bakery-themed user interface.
 
-The application allows users to search for bakery products 🔍 in real time, displaying matching items instantly without reloading the page. It also features SweetAlert2 💖 for attractive pop-up messages and Animate.css ✨ for smooth animations, making the browsing experience more engaging and user-friendly.
+The application allows users to search for bakery products 🔍 in real time, displaying matching items instantly without reloading the page. It also features SweetAlert2 💖 for attractive pop-up messages and Animate.css ✨ for smooth animations, making the browsing experience more engaging and user-friendly..
 
 ## ✨ Features
 
